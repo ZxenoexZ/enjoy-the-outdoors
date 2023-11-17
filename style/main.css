@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+    --bg-color: rgb(60,179,113);
+}
+
+body {
+    background: var(--bg-color);
+}
+
+p.solid {
+    border-style: solid;
+    border-width: medium;
+    border-color: blue;
+}
